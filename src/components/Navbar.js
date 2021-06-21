@@ -36,6 +36,7 @@ const Navbar = class extends React.Component {
     return (
       <nav
         className="navbar"
+        style={{backgroundColor: "#ffefff"}}
         role="navigation"
         aria-label="main-navigation"
       >
