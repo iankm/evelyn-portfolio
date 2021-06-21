@@ -8,7 +8,7 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
-  image,
+  video,
   title,
   heading,
   subheading,
@@ -72,13 +72,13 @@ export const IndexPageTemplate = ({
           <div style={{ height: '300px' }}>
             <video
               style={{ position: 'relative' , borderRadius: 4 }}
-              poster={image}
+              poster={video}
               autoPlay
               playsInline
               loop
               muted
             >
-              <source src={image} type="video/mp4" />
+              <source src={video} type="video/mp4" />
             </video>
           </div>
         </Tilt>
