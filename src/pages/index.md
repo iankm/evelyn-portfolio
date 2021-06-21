@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Hi, I'm Evelyn
-image: /img/home-jumbotron.jpg
+image: /img/banner-tiktok.mp4
 heading: Hi, I'm Evelyn
 subheading: Let's build your brand together
 mainpitch:

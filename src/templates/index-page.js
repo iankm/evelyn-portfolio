@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import Tilt from 'react-parallax-tilt'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -67,26 +68,20 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            color: 'black',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            color: 'black',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
+        <Tilt>
+          <div style={{ height: '300px' }}>
+            <video
+              style={{ position: 'relative' , borderRadius: 4 }}
+              poster={image}
+              autoPlay
+              playsInline
+              loop
+              muted
+            >
+              <source src={image} type="video/mp4" />
+            </video>
+          </div>
+        </Tilt>
       </div>
       </div>
     </div>
