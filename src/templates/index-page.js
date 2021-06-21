@@ -22,14 +22,15 @@ export const IndexPageTemplate = ({
         backgroundColor: '#ffefff'
       }}
     >
-      <div style={{display: 'flex', flexDirection: 'row'}}>
+      <div style={{display: 'flex', flexDirection: 'row', width: '100%'}}>
       <div
         style={{
           display: 'flex',
-          height: '150px',
+          flex: 1,
+          height: '100%',
           lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
+          justifyContent: 'center',
+          alignItems: 'center',
           flexDirection: 'column',
         }}
       >
@@ -57,7 +58,9 @@ export const IndexPageTemplate = ({
       <div
         style={{
           display: 'flex',
-          height: '150px',
+          flex: 1,
+          justifyContent: 'center',
+          height: '100%',
           lineHeight: '1',
           justifyContent: 'space-around',
           alignItems: 'left',
