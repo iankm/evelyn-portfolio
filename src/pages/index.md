@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Hi, I'm Evelyn
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Hi, I'm Evelyn
+subheading: Let's build your brand together
 mainpitch:
   title: Why Kaldi
   description: >
